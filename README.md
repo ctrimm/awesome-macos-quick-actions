@@ -1,8 +1,11 @@
 # Awesome macOS Finder Quick Actions
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 [![platform](https://img.shields.io/badge/platform-macOS-blue.svg)](https://www.apple.com/macos/)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![GitHub stars](https://img.shields.io/github/stars/ctrimm/awesome-macos-quick-actions.svg)](https://github.com/ctrimm/awesome-macos-quick-actions/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/ctrimm/awesome-macos-quick-actions.svg)](https://github.com/ctrimm/awesome-macos-quick-actions/commits)
 
 A curated collection of **macOS Finder Quick Actions** — right-click power tools for Finder.
 
