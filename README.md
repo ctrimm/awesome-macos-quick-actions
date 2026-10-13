@@ -11,7 +11,7 @@ A curated collection of **macOS Finder Quick Actions** — right-click power too
 
 **Quick Actions** are Automator workflows that live in Finder's right-click menu (and the Preview pane): select files or text, right-click, run. They turn repetitive chores — converting images, merging PDFs, copying paths, encoding text — into a single click.
 
-This repo offers **63 ready-to-install `.workflow` bundles** (most need nothing but macOS built-in tools) plus **61 curated links** to excellent actions built by the community — **124 entries** across 10 categories.
+This repo offers **73 ready-to-install `.workflow` bundles** (most need nothing but macOS built-in tools) plus **61 curated links** to excellent actions built by the community — **134 entries** across 10 categories.
 
 **Contributions welcome!** Found or built a great Quick Action? See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add it.
 
@@ -26,7 +26,7 @@ Do **not** copy bundles by hand into `~/Library/Services/` — macOS does not re
 
 ## Contents
 
-- [Apple Intelligence (On-Device)](#apple-intelligence-on-device) (14)
+- [Apple Intelligence (On-Device)](#apple-intelligence-on-device) (24)
 - [Images](#images) (27)
 - [Audio & Video](#audio--video) (11)
 - [PDFs](#pdfs) (10)
@@ -64,6 +64,16 @@ These bundles were authored on Linux and have not yet been compiled or run on a 
 | [Extract Image Text (On-Device OCR)](workflows/extract-text-ocr/) | OCRs images with Apple's on-device Vision framework and copies the text to the clipboard. | macOS 10.15+, Xcode CLI Tools (one-time build) |
 | [Generate Alt Text for Image](workflows/alt-text-image/) | Describes an image with on-device scene classification and saves a `-alt.txt` file. | macOS 10.15+, Xcode CLI Tools (one-time build) |
 | [Remove Background (On-Device AI)](workflows/remove-background-on-device/) | Strips the background with on-device Vision instance segmentation; saves a transparent `-nobg.png`. | macOS 12+, Xcode CLI Tools (one-time build) |
+| [Generate Commit Message](workflows/generate-commit-message/) | Generates a conventional-commit message from the selected folder's uncommitted git diff — on-device. | macOS 26+, Xcode CLI Tools (one-time build) |
+| [Explain Code or Error](workflows/explain-code/) | Explains selected code or an error message in plain language, with a likely fix. | macOS 26+, Xcode CLI Tools (one-time build) |
+| [Draft Email Reply](workflows/draft-email-reply/) | Drafts a professional reply to the selected email — on-device. | macOS 26+, Xcode CLI Tools (one-time build) |
+| [Meeting Notes to Action Items](workflows/meeting-action-items/) | Turns meeting notes into decisions plus an action-item checklist. | macOS 26+, Xcode CLI Tools (one-time build) |
+| [Rewrite in Chosen Tone](workflows/rewrite-tone/) | Rewrites selected text in your choice of Professional, Friendly, or Concise tone. | macOS 26+, Xcode CLI Tools (one-time build) |
+| [Generate Headline](workflows/generate-headline/) | Proposes 5 headline options for the selected text. | macOS 26+, Xcode CLI Tools (one-time build) |
+| [Blur Faces in Photo](workflows/blur-faces/) | Detects faces in photos and blurs them; saves `-blurred.png` copies. | macOS 10.15+, Xcode CLI Tools (one-time build) |
+| [Translate Image Text](workflows/translate-image-text/) | OCRs images and translates the recognized text — all on-device. | macOS 15+, translation language packs, Xcode CLI Tools (one-time build) |
+| [List Named Entities](workflows/list-entities/) | Lists the people, places, and organizations named in the selected text. | macOS 12+, Xcode CLI Tools (one-time build) |
+| [Extract Keywords](workflows/extract-keywords/) | Extracts the key topics and terms from the selected text. | macOS 26+, Xcode CLI Tools (one-time build) |
 ## Images
 
 | Action | Description | Requirements |
