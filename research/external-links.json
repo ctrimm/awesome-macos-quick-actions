@@ -1,0 +1,583 @@
+[
+  {
+    "name": "Remove Background",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/remove-background",
+    "description": "Removes the background using Apple Vision AI, keeping only the main subject with transparency; output lands next to the original.",
+    "category": "Images",
+    "requirements": "macOS 14+, Xcode CLI Tools, compiled via build.sh"
+  },
+  {
+    "name": "Remove Nano Banana Watermark",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/remove-nano-banana-watermark",
+    "description": "Removes the sparkle watermark from Nano Banana AI-generated images using distance-weighted interpolation with texture matching.",
+    "category": "Images",
+    "requirements": "Python 3, Pillow"
+  },
+  {
+    "name": "Optimize Image",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/optimize-image",
+    "description": "Reduces file size by re-encoding (JPG quality 82, PNG via pngquant); shows before/after size in a notification.",
+    "category": "Images",
+    "requirements": "none (optional: pngquant)"
+  },
+  {
+    "name": "Resize to w1024px",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/resize-to-w1024px",
+    "description": "Resizes images to 1024px width while maintaining aspect ratio; skips smaller images. Original is never modified.",
+    "category": "Images",
+    "requirements": "none (built-in sips)"
+  },
+  {
+    "name": "Strip EXIF",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/strip-exif",
+    "description": "Removes metadata (GPS location, camera info) from images for privacy.",
+    "category": "Images",
+    "requirements": "none (built-in sips)"
+  },
+  {
+    "name": "Add Rounded Corners",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/add-rounded-corners",
+    "description": "Adds rounded corners with transparency; great for screenshots in presentations.",
+    "category": "Images",
+    "requirements": "Python 3, Pillow"
+  },
+  {
+    "name": "Add Drop Shadow",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/add-drop-shadow",
+    "description": "Adds a soft drop shadow around images; ideal for blog posts and documentation.",
+    "category": "Images",
+    "requirements": "Python 3, Pillow"
+  },
+  {
+    "name": "QR Code",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/qr-code",
+    "description": "Generates a QR code PNG from the file contents (if text) or the file path. Alternate QR action: hexdrx/awesome-quick-actions QR (also decodes QR images).",
+    "category": "Productivity",
+    "requirements": "Xcode CLI Tools, compiled via build.sh"
+  },
+  {
+    "name": "JSON Prettify",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/json-prettify",
+    "description": "Formats selected JSON text with proper indentation; result is copied to the clipboard.",
+    "category": "Text",
+    "requirements": "Python 3"
+  },
+  {
+    "name": "Convert Case",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/convert-case",
+    "description": "Auto-detects and converts between camelCase, snake_case, and kebab-case; result is copied to the clipboard.",
+    "category": "Text",
+    "requirements": "none"
+  },
+  {
+    "name": "WhatsApp Line Wrap",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/whatsapp-line-wrap",
+    "description": "Wraps text to 40-character lines for WhatsApp readability; converts ASCII tables to card format.",
+    "category": "Text",
+    "requirements": "Python 3"
+  },
+  {
+    "name": "Remove Vowels",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/remove-vowels",
+    "description": "Removes all vowels, including German umlauts (ae oe ue), from selected text.",
+    "category": "Text",
+    "requirements": "none (built-in tr)"
+  },
+  {
+    "name": "Text Statistics",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/text-statistics",
+    "description": "Shows word, character, and line count of selected text as a macOS notification.",
+    "category": "Text",
+    "requirements": "none"
+  },
+  {
+    "name": "Copy File Path",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/copy-file-path",
+    "description": "Copies the full path of selected file(s) to the clipboard. Alternates: nikolarhristov/quickaction Copy Path, Copy Path (Quoted), Copy Path (URL).",
+    "category": "Files & Folders",
+    "requirements": "none"
+  },
+  {
+    "name": "Copy Metadata",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/copy-metadata",
+    "description": "Copies file metadata (type, size, dates, image dimensions) to the clipboard.",
+    "category": "Files & Folders",
+    "requirements": "none"
+  },
+  {
+    "name": "Copy Folder Tree",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/copy-folder-tree",
+    "description": "Copies the folder structure as a text tree to the clipboard.",
+    "category": "Files & Folders",
+    "requirements": "none (optional: tree)"
+  },
+  {
+    "name": "New Textfile",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/new-textfile",
+    "description": "Creates Untitled.txt in the current folder and opens it in the default editor. Alternates: smarcsoft/utils New File, yeutterg New File, princelundgren Create text file.",
+    "category": "Files & Folders",
+    "requirements": "none"
+  },
+  {
+    "name": "Cleanup Caches",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/cleanup-caches",
+    "description": "Frees disk space with a confirmation dialog: clears macOS/npm/Gradle caches, user logs, PM2 logs, runs brew cleanup and npm cache clean; shows freed bytes as a notification.",
+    "category": "Developer Tools",
+    "requirements": "none"
+  },
+  {
+    "name": "Sleep Check",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/sleepcheck",
+    "description": "Diagnoses why the Mac won't sleep: lists active power assertions and finds orphaned automation browsers holding a Capturing assertion, offering to kill them via a confirmation dialog.",
+    "category": "Developer Tools",
+    "requirements": "none"
+  },
+  {
+    "name": "LoC",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/loc",
+    "description": "Counts source-code lines in the selected folder(s), skipping .git, node_modules, venvs, build output, and minified files; shows totals in a self-dismissing window.",
+    "category": "Developer Tools",
+    "requirements": "none"
+  },
+  {
+    "name": "LoC Chart",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/loc-chart",
+    "description": "Same counting engine as LoC, but the result appears as a floating HUD panel with an animated per-language bar chart; falls back to a dialog without the compiled panel.",
+    "category": "Developer Tools",
+    "requirements": "none (optional: Xcode CLI Tools for the chart panel)"
+  },
+  {
+    "name": "Rename Tracks",
+    "url": "https://github.com/pepperonas/macos-workflows/tree/main/workflows/rename-tracks",
+    "description": "Normalises music filenames in a folder to Artist - Title.ext: title case, strips download clutter (e.g. (Official Video), YouTube IDs), normalises feat.; shows a preview dialog and writes an undo log.",
+    "category": "Audio & Video",
+    "requirements": "none (Python 3 standard library)"
+  },
+  {
+    "name": "Convert",
+    "url": "https://github.com/hexdrx/awesome-quick-actions/tree/main/Convert",
+    "description": "Right-click any image/audio/video, pick a target format from a native dropdown; converted file lands next to the original with batch handling, a progress bar, and collision-safe names.",
+    "category": "Audio & Video",
+    "requirements": "ffmpeg (Homebrew) for audio/video; images use built-in sips"
+  },
+  {
+    "name": "ZIP",
+    "url": "https://github.com/hexdrx/awesome-quick-actions/tree/main/ZIP",
+    "description": "Zips file(s)/folder(s) with zip -r; prompts for one archive name on multi-select; strips __MACOSX and .DS_Store, never overwrites.",
+    "category": "Compression & Archives",
+    "requirements": "none (built-in zip)"
+  },
+  {
+    "name": "File Tools",
+    "url": "https://github.com/hexdrx/awesome-quick-actions/tree/main/FileTools",
+    "description": "One menu for any file/folder: copy path (POSIX / file:// / name), checksum (SHA-256/1, MD5, verify), new file here, batch rename; collision-safe.",
+    "category": "Files & Folders",
+    "requirements": "none"
+  },
+  {
+    "name": "QR",
+    "url": "https://github.com/hexdrx/awesome-quick-actions/tree/main/QR",
+    "description": "Decodes QR codes from images (text to clipboard, URLs open in browser); encodes text-file contents or typed text into a QR image; also ships a QR-from-selected-text Services action.",
+    "category": "Productivity",
+    "requirements": "none (built-in CoreImage + Vision)"
+  },
+  {
+    "name": "Transcribe",
+    "url": "https://github.com/hexdrx/awesome-quick-actions/tree/main/Transcribe",
+    "description": "Transcribes audio/video to a .txt next to the original: English via Apple's on-device recognizer (Russian or English picker), Russian via GigaAM v3 with punctuation.",
+    "category": "Audio & Video",
+    "requirements": "macOS 26+ (English engine), ffmpeg"
+  },
+  {
+    "name": "Brotli File",
+    "url": "https://github.com/cheeaun/macos-quick-actions/tree/main/scripts/Brotli%20file.workflow",
+    "description": "Creates a .br compressed copy of a selected file.",
+    "category": "Compression & Archives",
+    "requirements": "Homebrew: brotli"
+  },
+  {
+    "name": "Gzip File",
+    "url": "https://github.com/cheeaun/macos-quick-actions/tree/main/scripts/Gzip%20file.workflow",
+    "description": "Creates a .gz compressed copy of a selected file.",
+    "category": "Compression & Archives",
+    "requirements": "none (built-in gzip)"
+  },
+  {
+    "name": "Convert to JPEG",
+    "url": "https://github.com/cheeaun/macos-quick-actions/tree/main/scripts/Convert%20to%20JPEG.workflow",
+    "description": "Creates a copy of an image file in JPEG format. Alternate: yeutterg/automator-workflows Duplicate as JPG.",
+    "category": "Images",
+    "requirements": "none"
+  },
+  {
+    "name": "Resize Images",
+    "url": "https://github.com/cheeaun/macos-quick-actions/tree/main/scripts/Resize%20Images.workflow",
+    "description": "Creates copies of selected image files resized to a chosen width. Alternates: sparanoid/automator-workflows Resize Images, yeutterg/automator-workflows Resize.",
+    "category": "Images",
+    "requirements": "none"
+  },
+  {
+    "name": "Translate to English",
+    "url": "https://github.com/cheeaun/macos-quick-actions/tree/main/scripts/Translate%20to%20English.workflow",
+    "description": "Translates selected text to English, showing a popup of the Google Translate result.",
+    "category": "Text",
+    "requirements": "none"
+  },
+  {
+    "name": "Open with VSCodium",
+    "url": "https://github.com/shadow1363/automator-quick-actions/tree/main/Open%20with%20VSCodium.workflow",
+    "description": "Opens the selected folder in a new VSCodium window.",
+    "category": "Developer Tools",
+    "requirements": "VSCodium with the codium CLI shim in PATH"
+  },
+  {
+    "name": "Share with LocalSend",
+    "url": "https://github.com/shadow1363/automator-quick-actions/tree/main/Share%20with%20LocalSend.workflow",
+    "description": "Opens the selected file/folder with LocalSend, ready to send.",
+    "category": "Files & Folders",
+    "requirements": "LocalSend"
+  },
+  {
+    "name": "Combine PDF 4-in-1 (Portrait)",
+    "url": "https://github.com/vinayakchandra/combine-pdf-4in1/tree/main/pdf_4in1.workflow",
+    "description": "Combines PDF, Word, and PowerPoint files into a portrait A4 PDF with up to 4 original pages/slides per page (2x2 layout).",
+    "category": "PDFs",
+    "requirements": "Python 3, PyMuPDF (Word/PowerPoint need Microsoft Office or Pages)"
+  },
+  {
+    "name": "Combine PDF 4-in-1 (Landscape)",
+    "url": "https://github.com/vinayakchandra/combine-pdf-4in1/tree/main/pdf_4in1_landscape.workflow",
+    "description": "Same 2x2 combining as the portrait workflow, but with a landscape A4 output PDF for wide slides and landscape documents.",
+    "category": "PDFs",
+    "requirements": "Python 3, PyMuPDF (Word/PowerPoint need Microsoft Office or Pages)"
+  },
+  {
+    "name": "Flip Images Horizontally",
+    "url": "https://github.com/karl-horning/macos-automator-workflows/tree/main/workflows/images/flip-images-horizontally",
+    "description": "Mirrors selected images left-to-right. Note: modifies files in place; duplicate first if unsure.",
+    "category": "Images",
+    "requirements": "none"
+  },
+  {
+    "name": "Rotate Images",
+    "url": "https://github.com/karl-horning/macos-automator-workflows/tree/main/workflows/images/rotate-images",
+    "description": "Rotates selected images 90 degrees left, 90 degrees right, or 180 degrees. Note: modifies files in place. Alternates: yeutterg Rotate Clockwise / Rotate Counterclockwise.",
+    "category": "Images",
+    "requirements": "none"
+  },
+  {
+    "name": "Scale Images to 1280px",
+    "url": "https://github.com/karl-horning/macos-automator-workflows/tree/main/workflows/images/scale-images",
+    "description": "Resizes selected images to 1280px wide. Note: modifies files in place.",
+    "category": "Images",
+    "requirements": "none"
+  },
+  {
+    "name": "Normalise JPG Extension Names",
+    "url": "https://github.com/karl-horning/macos-automator-workflows/tree/main/workflows/images/normalise-jpg-extension-names",
+    "description": "Renames .JPEG/.jpeg/.JPG extensions to lowercase .jpg for filename consistency.",
+    "category": "Images",
+    "requirements": "none"
+  },
+  {
+    "name": "Number Images Sequentially",
+    "url": "https://github.com/karl-horning/macos-automator-workflows/tree/main/workflows/images/number-images-sequentially",
+    "description": "Renames selected images to IMG_0001 format for consistent sequencing.",
+    "category": "Files & Folders",
+    "requirements": "none"
+  },
+  {
+    "name": "Number Pages Sequentially",
+    "url": "https://github.com/karl-horning/macos-automator-workflows/tree/main/workflows/images/number-pages-sequentially",
+    "description": "Renames selected images to PAGE_0000 format (starting at 0), for feeding into PDF creation.",
+    "category": "PDFs",
+    "requirements": "none"
+  },
+  {
+    "name": "Reverse Image File Names",
+    "url": "https://github.com/karl-horning/macos-automator-workflows/tree/main/workflows/images/reverse-image-file-names",
+    "description": "Reverses the numbering of an image sequence.",
+    "category": "Files & Folders",
+    "requirements": "none"
+  },
+  {
+    "name": "New PDF from Images",
+    "url": "https://github.com/karl-horning/macos-automator-workflows/tree/main/workflows/pdf/new-pdf-from-images",
+    "description": "Creates a single PDF from selected images; originals are untouched.",
+    "category": "PDFs",
+    "requirements": "none"
+  },
+  {
+    "name": "Split PDF",
+    "url": "https://github.com/karl-horning/macos-automator-workflows/tree/main/workflows/pdf/split-pdf",
+    "description": "Splits a multi-page PDF into one file per page. Alternate: yeutterg/automator-workflows Split PDF.",
+    "category": "PDFs",
+    "requirements": "none"
+  },
+  {
+    "name": "Copy Path (Quoted)",
+    "url": "https://github.com/nikolarhristov/quickaction/tree/Current/Copy%20Path%20(Quoted).workflow",
+    "description": "Copies printf %q-quoted, shell-safe absolute paths of selected items (multiple items joined by newlines) to the clipboard.",
+    "category": "Files & Folders",
+    "requirements": "none (runs under zsh)"
+  },
+  {
+    "name": "Copy Path (URL)",
+    "url": "https://github.com/nikolarhristov/quickaction/tree/Current/Copy%20Path%20(URL).workflow",
+    "description": "Copies file:// URL, percent-encoded paths of selected items (multiple items joined by newlines) to the clipboard.",
+    "category": "Files & Folders",
+    "requirements": "none (runs under zsh)"
+  },
+  {
+    "name": "Open in VS Code",
+    "url": "https://github.com/smarcsoft/utils/tree/main/Open%20vscode%20contextual%20Menu/Open%20in%20VS%20Code.workflow",
+    "description": "Adds a Finder contextual menu item to open the selected file or folder in Visual Studio Code. Alternate: princelundgren/automator-collection Open in Visual Studio Code.",
+    "category": "Developer Tools",
+    "requirements": "Visual Studio Code with the code CLI in PATH"
+  },
+  {
+    "name": "ZFS Previous Versions",
+    "url": "https://github.com/ljrnbg/zfs-previous-versions-macos",
+    "description": "Browse and safely restore previous file versions from TrueNAS/ZFS snapshots; a macOS alternative to the Windows Previous Versions feature for SMB shadow copies.",
+    "category": "Files & Folders",
+    "requirements": "none (file must live on a ZFS/TrueNAS snapshot share)"
+  },
+  {
+    "name": "OCR Screenshots to Note",
+    "url": "https://github.com/justinburnette/screenshot-to-applenotes",
+    "description": "OCRs one or more screenshots and creates an Apple Note with the combined text; the OCR helper compiles itself automatically on first run.",
+    "category": "Screenshots & Clipboard",
+    "requirements": "none"
+  },
+  {
+    "name": "Compress With Password",
+    "url": "https://github.com/robinperson/compress-with-password",
+    "description": "Creates a password-protected ZIP file from the Finder selection via the Quick Actions menu.",
+    "category": "Compression & Archives",
+    "requirements": "none"
+  },
+  {
+    "name": "Duplicate as PNG",
+    "url": "https://github.com/yeutterg/automator-workflows/tree/master/Workflows/Duplicate%20as%20PNG.workflow",
+    "description": "Makes a copy of image(s) converted to PNG in the same folder. JPG counterpart: cheeaun Convert to JPEG.",
+    "category": "Images",
+    "requirements": "none"
+  },
+  {
+    "name": "Split PDF into Images",
+    "url": "https://github.com/yeutterg/automator-workflows/tree/master/Workflows/Split%20PDF%20Into%20Images....workflow",
+    "description": "Saves every page of a PDF as an image, with colorspace, file type, resolution, and compression options chosen in a dialog.",
+    "category": "PDFs",
+    "requirements": "none"
+  },
+  {
+    "name": "Combine PDFs",
+    "url": "https://github.com/yeutterg/automator-workflows/tree/master/Workflows/Combine%20PDFs....workflow",
+    "description": "Combines multiple selected PDFs into one file with a chosen name. Alternate: princelundgren/automator-collection Merge PDF Pages.",
+    "category": "PDFs",
+    "requirements": "none"
+  },
+  {
+    "name": "Extract PDF Text",
+    "url": "https://github.com/yeutterg/automator-workflows/tree/master/Workflows/Extract%20PDF%20Text.workflow",
+    "description": "Extracts selectable text from PDF(s) and saves it to a same-named text file. Alternate: lawrenceting/Automator-Services-and-Workflows Extract PDF Text.",
+    "category": "PDFs",
+    "requirements": "none"
+  },
+  {
+    "name": "Add YYYY-MM-DD Prefix",
+    "url": "https://github.com/yeutterg/automator-workflows/tree/master/Workflows/Add%20YYYY-MM-DD%20Prefix.workflow",
+    "description": "Adds today's date in YYYY-MM-DD format as a prefix to selected filename(s) or folder name(s).",
+    "category": "Files & Folders",
+    "requirements": "none"
+  },
+  {
+    "name": "Count Words",
+    "url": "https://github.com/yeutterg/automator-workflows/tree/master/Workflows/Count%20Words.workflow",
+    "description": "Counts the number of highlighted words and shows the count in a dialog.",
+    "category": "Text",
+    "requirements": "none"
+  },
+  {
+    "name": "Get Definition",
+    "url": "https://github.com/yeutterg/automator-workflows/tree/master/Workflows/Get%20Definition.workflow",
+    "description": "Opens Dictionary.app with the highlighted text as the query, showing the full Dictionary entry.",
+    "category": "Productivity",
+    "requirements": "none"
+  },
+  {
+    "name": "Create App Iconset",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Create%20App%20Iconset.workflow",
+    "description": "Generates the full set of macOS app-icon sizes (1024x1024 down to 16x16) from a selected 1024x1024 icon with an sRGB color profile.",
+    "category": "Images",
+    "requirements": "none"
+  },
+  {
+    "name": "Create .icns",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Create%20.icns.workflow",
+    "description": "Creates a .icns file from a selected image using iconutil.",
+    "category": "Developer Tools",
+    "requirements": "Xcode Command Line Tools"
+  },
+  {
+    "name": "Unpack .icns",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Unpack%20.icns.workflow",
+    "description": "Unpacks a .icns file into an .iconset folder using iconutil.",
+    "category": "Developer Tools",
+    "requirements": "Xcode Command Line Tools"
+  },
+  {
+    "name": "Create favicon.ico",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Create%20favicon.ico.workflow",
+    "description": "Creates a favicon.ico (64x64 4x resource) from a selected PNG using ImageMagick.",
+    "category": "Developer Tools",
+    "requirements": "Homebrew: imagemagick"
+  },
+  {
+    "name": "Create favicon.ico (multi-resource)",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Create%20favicon.ico%20(multi-resource).workflow",
+    "description": "Creates a multi-resource favicon.ico (64x64, 32x32, and 16x16) from a selected PNG using ImageMagick.",
+    "category": "Developer Tools",
+    "requirements": "Homebrew: imagemagick"
+  },
+  {
+    "name": "Add @2x/@3x Suffix",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Add%20@2x%20Suffix.workflow",
+    "description": "Adds @2x (or @3x, via the companion workflow) suffix to retina image asset filenames.",
+    "category": "Images",
+    "requirements": "none"
+  },
+  {
+    "name": "Create @2x/@3x Image",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Create%20@2x%20Image.workflow",
+    "description": "Auto-downscales retina-size images (e.g. exported from PNG Express) to create @2x (or @3x) versions.",
+    "category": "Images",
+    "requirements": "none"
+  },
+  {
+    "name": "Remove @2x/@3x Suffix",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Remove%20@2x%20Suffix.workflow",
+    "description": "Removes @2x (or @3x, via the companion workflow) suffix from retina image asset filenames.",
+    "category": "Images",
+    "requirements": "none"
+  },
+  {
+    "name": "Convert Image Format",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Convert%20Image%20Format.workflow",
+    "description": "Converts selected images to a specific format.",
+    "category": "Images",
+    "requirements": "none"
+  },
+  {
+    "name": "Convert WebP to PNG",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Convert%20WebP%20to%20PNG.workflow",
+    "description": "Converts selected WebP images to PNG.",
+    "category": "Images",
+    "requirements": "Homebrew: webp (dwebp)"
+  },
+  {
+    "name": "Resize Image for WordPress",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Resize%20Image%20for%20WordPress.workflow",
+    "description": "Resizes images to WordPress-friendly dimensions.",
+    "category": "Images",
+    "requirements": "none"
+  },
+  {
+    "name": "Compress Images",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Compress%20Images.workflow",
+    "description": "Compresses PNG, JPG, and SVG using OptiPNG, pngcrush, jpegoptim, and svgo; auto-detects the file type of each selected image.",
+    "category": "Images",
+    "requirements": "Homebrew: jpegoptim, svgo (OptiPNG and pngcrush bundled)"
+  },
+  {
+    "name": "Create DMG Image",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Create%20DMG%20Image.workflow",
+    "description": "Creates a distributable cross-platform hybrid DMG image from a selected directory using hdiutil; prompts for the volume name.",
+    "category": "Developer Tools",
+    "requirements": "none"
+  },
+  {
+    "name": "Encode Selected Files Using Base64",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Encode%20Selected%20Files%20using%20Base64.workflow",
+    "description": "Base64-encodes selected files for use in data URI schemes.",
+    "category": "Developer Tools",
+    "requirements": "none"
+  },
+  {
+    "name": "Convert Selected Text to Audio File",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Convert%20Selected%20Text%20to%20Audio%20File.workflow",
+    "description": "Converts selected text to an AIFF audio file in any application.",
+    "category": "Audio & Video",
+    "requirements": "none"
+  },
+  {
+    "name": "Convert .ass to .srt",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Convert%20.ass%20to%20.srt.workflow",
+    "description": "Converts .ass subtitle files to .srt subtitle files.",
+    "category": "Audio & Video",
+    "requirements": "sorz/asstosrt"
+  },
+  {
+    "name": "Open with rmate",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Open%20with%20rmate.workflow",
+    "description": "Opens the selected file with rmate (TextMate's remote editor helper).",
+    "category": "Developer Tools",
+    "requirements": "rmate"
+  },
+  {
+    "name": "Rename Selected Files",
+    "url": "https://github.com/sparanoid/automator-workflows/tree/master/Rename%20Selected%20Files.workflow",
+    "description": "Renames selected files via the standard Finder rename dialog.",
+    "category": "Files & Folders",
+    "requirements": "none"
+  },
+  {
+    "name": "Compress PDF Size",
+    "url": "https://github.com/princelundgren/automator-collection/tree/master/Compress%20PDF%20Size(Larger).workflow",
+    "description": "Compresses images inside PDFs at Smaller/Medium/Larger quality tiers (three workflows): Larger nearly halves file size at near-original quality; Smallest can shrink a 90MB PDF to ~200KB.",
+    "category": "PDFs",
+    "requirements": "none"
+  },
+  {
+    "name": "Convert Video to 1080p",
+    "url": "https://github.com/princelundgren/automator-collection/tree/master/Convert%20video%20to%201080p(Google%20Cardboard%20compatible).workflow",
+    "description": "Converts a video to a small 1080p file compatible with Google Cardboard players, VLC on Mac/Android, and most devices.",
+    "category": "Audio & Video",
+    "requirements": "none"
+  },
+  {
+    "name": "Crop Image to 1080p",
+    "url": "https://github.com/princelundgren/automator-collection/tree/master/Crop%20image%20to%201080p.workflow",
+    "description": "Crops any image to a forced 1920x1080 resolution; great for wallpapers.",
+    "category": "Images",
+    "requirements": "none"
+  },
+  {
+    "name": "Crop Image to 720p",
+    "url": "https://github.com/princelundgren/automator-collection/tree/master/Crop%20image%20to%20720p.workflow",
+    "description": "Crops any image to a forced 1280x720 resolution; great for wallpapers.",
+    "category": "Images",
+    "requirements": "none"
+  },
+  {
+    "name": "Add to Alfred Blocklist",
+    "url": "https://github.com/princelundgren/automator-collection/tree/master/Add%20to%20Alfred%20blocklist.workflow",
+    "description": "Adds the selected file to the Alfred blocklist directly from Finder.",
+    "category": "Productivity",
+    "requirements": "Alfred"
+  },
+  {
+    "name": "Remove from Alfred Blocklist",
+    "url": "https://github.com/princelundgren/automator-collection/tree/master/Remove%20from%20Alfred%20blocklist.workflow",
+    "description": "Removes the selected file from the Alfred blocklist directly from Finder.",
+    "category": "Productivity",
+    "requirements": "Alfred"
+  },
+  {
+    "name": "ImageOptim (Finder Service)",
+    "url": "https://imageoptim.com",
+    "description": "Right-click any image (or a whole folder of them) to lossy/lossless-compress it in place, with no app window; installs itself as a Finder service.",
+    "category": "Images",
+    "requirements": "none (ImageOptim app install)"
+  }
+]
