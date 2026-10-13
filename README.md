@@ -11,7 +11,7 @@ A curated collection of **macOS Finder Quick Actions** — right-click power too
 
 **Quick Actions** are Automator workflows that live in Finder's right-click menu (and the Preview pane): select files or text, right-click, run. They turn repetitive chores — converting images, merging PDFs, copying paths, encoding text — into a single click.
 
-This repo offers **62 ready-to-install `.workflow` bundles** (most need nothing but macOS built-in tools) plus **61 curated links** to excellent actions built by the community — **123 entries** across 10 categories.
+This repo offers **63 ready-to-install `.workflow` bundles** (most need nothing but macOS built-in tools) plus **61 curated links** to excellent actions built by the community — **124 entries** across 10 categories.
 
 **Contributions welcome!** Found or built a great Quick Action? See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add it.
 
@@ -26,7 +26,7 @@ Do **not** copy bundles by hand into `~/Library/Services/` — macOS does not re
 
 ## Contents
 
-- [Apple Intelligence (On-Device)](#apple-intelligence-on-device) (13)
+- [Apple Intelligence (On-Device)](#apple-intelligence-on-device) (14)
 - [Images](#images) (27)
 - [Audio & Video](#audio--video) (11)
 - [PDFs](#pdfs) (10)
@@ -63,6 +63,7 @@ These bundles were authored on Linux and have not yet been compiled or run on a 
 | [AI Rename Screenshot](workflows/ai-rename-screenshot/) | OCRs a screenshot and names it from its on-screen text — the private, on-device version of the viral cloud setup. | macOS 26+, Xcode CLI Tools (one-time build) |
 | [Extract Image Text (On-Device OCR)](workflows/extract-text-ocr/) | OCRs images with Apple's on-device Vision framework and copies the text to the clipboard. | macOS 10.15+, Xcode CLI Tools (one-time build) |
 | [Generate Alt Text for Image](workflows/alt-text-image/) | Describes an image with on-device scene classification and saves a `-alt.txt` file. | macOS 10.15+, Xcode CLI Tools (one-time build) |
+| [Remove Background (On-Device AI)](workflows/remove-background-on-device/) | Strips the background with on-device Vision instance segmentation; saves a transparent `-nobg.png`. | macOS 12+, Xcode CLI Tools (one-time build) |
 ## Images
 
 | Action | Description | Requirements |
